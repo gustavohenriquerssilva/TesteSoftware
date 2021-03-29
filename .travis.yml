@@ -1,9 +1,9 @@
-language: java
+ language: node_js
+node_js:
+  - 10
 
 script:
+  - npm install
   - npm install --save-dev jest
   - npm run test
   - npm run cobertura
-
-jdk:
-  - openjdk11
