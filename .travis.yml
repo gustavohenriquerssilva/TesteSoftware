@@ -1,12 +1,9 @@
 language: java
 
 script:
+  - npm install --save-dev jest
   - npm run test
   - npm run cobertura
 
-cache:
-  directories:
-  - "$HOME/.m2/repository"
-  - "$HOME/.sonar/cache"
 jdk:
   - openjdk11
