@@ -1,0 +1,12 @@
+language: java
+
+script:
+  - npm run test
+  - npm run cobertura
+
+cache:
+  directories:
+  - "$HOME/.m2/repository"
+  - "$HOME/.sonar/cache"
+jdk:
+  - openjdk11
