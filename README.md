@@ -21,7 +21,6 @@ a versão do JDK, dentre outras. Observe que o JDK é obrigatório, assim como
 a definição das variáveis de ambiente **JAVA_HOME** e **M2_HOME**.
 
 ## Instalar Jest
-- `npm install`<br>
 - `npm install --save-dev jest`<br>
 
 ## Rodar testes
